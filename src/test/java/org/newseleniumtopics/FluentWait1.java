@@ -28,16 +28,7 @@ public class FluentWait1 {
 				.ignoring(StaleElementReferenceException.class);
 		
 		
-		 WebElement username = wait.until(new Function<WebDriver, WebElement>()
- 		{
-				@Override
-				public WebElement apply(WebDriver t) 
-				{
-					
-					return t.findElement(By.name("username"));
-				}	
- 	
- 		});
+		
 		
 		
 				
