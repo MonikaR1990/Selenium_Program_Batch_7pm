@@ -22,15 +22,10 @@ public class TakesScreenShot1 {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		
-		
-		
-		
+	
 		WebElement username = driver.findElement(By.id("email"));
 		
 		WebElement password = driver.findElement(By.id("pass"));
-		
-		
-		
 		
 		WebElement loginBtn = driver.findElement(By.name("login"));
 		
